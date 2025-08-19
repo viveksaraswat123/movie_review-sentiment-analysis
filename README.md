@@ -41,48 +41,34 @@ Copy code
 python -m venv venv
 source venv/bin/activate    # Linux/macOS
 venv\Scripts\activate       # Windows
-Install dependencies
 
-bash
-Copy code
-pip install -r requirements.txt
+Install dependencies - pip install -r requirements.txt
 Download the dataset
 
 Download the IMDB Dataset.csv file from here and place it in the project directory.
 
-Usage
-Run the main script:
-
-bash
-Copy code
-python main.py
+# Usage
+Run the main script: python main.py
 The program will:
 
-Train the logistic regression model on the dataset.
+# Train the logistic regression model on the dataset.
 
-Output the model accuracy and classification report.
+# Output the model accuracy and classification report.
 
-Allow you to enter your own movie reviews and predict their sentiment interactively.
+# Allow you to enter your own movie reviews and predict their sentiment interactively.
 
-Type exit to quit the interactive mode.
+# Type exit to quit the interactive mode.
 
-Code Structure
-bash
-Copy code
-├── main.py               # Main script containing preprocessing, model training, and testing
-├── IMDB Dataset.csv      # Dataset file (not included, must be downloaded separately)
-├── requirements.txt      # Project dependencies
-├── README.md             # This file
-└── .gitignore            # Git ignore rules
+
 Model Performance
 The logistic regression model with TF-IDF features achieves an accuracy of approximately 90-92% on the test set, providing reliable sentiment classification for movie reviews.
 
 Future Improvements
-Incorporate advanced NLP models like LSTM, BERT for improved accuracy.
+# Incorporate advanced NLP models like LSTM, BERT for improved accuracy.
 
-Use more complex text preprocessing like lemmatization and stopword removal.
+# Use more complex text preprocessing like lemmatization and stopword removal.
 
-Implement hyperparameter tuning for better model performance.
+# Implement hyperparameter tuning for better model performance.
 
 Add support for multi-class sentiment analysis (e.g., neutral class).
 
@@ -90,11 +76,8 @@ Build a web app or API to make the model accessible online.
 
 Technologies Used
 Python 3.x
-
 pandas
-
 scikit-learn
-
 regex (re)
 
 License
